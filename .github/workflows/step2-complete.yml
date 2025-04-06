@@ -24,4 +24,17 @@ jobs:
         run: |
           cp steps/step3.md README.md
           
-          git config --local user.email "github-actions[bot]@user
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git commit -m "Update README to step 3"
+          git push
+          
+      - name: Not ready or already completed
+        if: ${{ env.CURRENT_STEP != '2' }}
+        run: |
+          if [ "${{ env.CURRENT_STEP }}" -lt "2" ]; then
+            echo "You need to complete previous steps first. Current step is ${{ env.CURRENT_STEP }}."
+          else
+            echo "Step 2 has already been completed. Current step is ${{ env.CURRENT_STEP }}."
+          fi
