@@ -21,7 +21,7 @@ Now, let's make your design project more powerful by adding custom fields specif
    - Click the "Filter" button in the top right
    - Create a filter to show only items where "Design Stage" is "Mockup" or "Prototype"
 
-Once completed, go to the **Actions** tab and run the "Complete Step 2" workflow to proceed to the next step.
+Once completed, go to the **Actions** tab and run the "Complete Step 3" workflow to proceed to the next step.
 
 ### 📚 Custom Fields for Design Work
 Custom fields allow you to track information specific to design workflows. The fields we're adding help track what stage a design is in, what type of design it is, how many feedback rounds it has gone through, who the stakeholders are, and when it's due. These fields make it easier to sort, filter, and organize your design tasks effectively.
