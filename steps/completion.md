@@ -2,18 +2,6 @@
 
 Welcome to this interactive tutorial on customizing GitHub Projects for design workflows! This repository will guide you through creating and customizing a design project board using GitHub Projects V2.
 
-## ✅ Step 1: Create a Design Project and Custom Views
-Congratulations! You've successfully created a design project with multiple views.
-
-## ✅ Step 2: Add Design-Specific Custom Fields
-Great job! You've added custom fields to track design-specific information.
-
-## ✅ Step 3: Set Up Automations for Your Design Workflow
-Excellent! You've created automations to streamline your design workflow.
-
-## ✅ Step 4: Create Insights and Reports
-Amazing! You've set up insights to track and visualize your design progress.
-
 ## 🎉 Congratulations!
 
 You've completed this advanced tutorial on customizing GitHub Projects for design workflows! You now know how to:
